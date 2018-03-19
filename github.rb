@@ -1,5 +1,5 @@
 require 'rubygems'
-require 'watir-webdriver'
+require 'watir'
 b = Watir::Browser.new
 b.goto 'github.com/login'
 b.text_field(:id => 'login_field').set 'nicholas85211@gmail.com'
